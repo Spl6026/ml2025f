@@ -126,7 +126,7 @@
   .bottomrow {
     margin-bottom: 36px;
   }
-</style>
+  <img src="../../../截圖 2025-11-01 下午2.18.27.png" height="242" width="1246"/></style>
 </head>
 <body>
 
@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次是做心臟模型標註的推測，這次作業讓我認知到AI是多麼的偉大，我第一次作業做了三個小時的東西他用少少的幾分鐘就能做出一個比我標注的還要好不知道多少的檔案，雖然目前我train出來的要跟專家標出來的比還有不小差距，但我感覺都是有說法的，多train幾次或多用幾個模型都還有機會再更好，看看我在期中之前還能讓模型變好多少。
     </div>
   </div>
 
@@ -169,22 +169,23 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 完成colab baseline的推論並上傳至競賽網頁
+          </td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 使用HW2 Medium baseline訓練出來的權重檔推論50筆資料並上傳至競賽網頁
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 使用HW2 Strong Baseline訓練出來的權重檔對patient0051做推論
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -196,9 +197,26 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <table>
+        <tr>
+          <td> Simple Baseline 圖片
+            <img src="simple.png" width="100%">
+        </tr>
+        <tr>
+          <td> Medium Baseline 圖片
+            <img src="medium.png" width="100%">
+        </tr>
+        <tr>
+          <td> Strong Baseline 圖片
+            <table>
+              <tr>
+                <td><img src="strong.png" width="100%"></td>
+                <td><img src="strong_1.png" width="100%"></td>
+                <td><img src="strong_2.png" width="100%"></td>
+              </tr>
+            </table>
+        </tr>
+      </table>
     </div>
   </div>
 
